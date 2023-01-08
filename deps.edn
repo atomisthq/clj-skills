@@ -1,0 +1,10 @@
+{:paths ["src"]
+ :deps {org.clojure/spec.alpha {:mvn/version "0.3.218"}
+        funcool/promesa {:mvn/version "10.0.594"}
+        babashka/babashka.curl {:mvn/version "0.1.2"}
+        babashka/babashka.pods {:mvn/version "0.1.0"}
+        http-kit/http-kit {:mvn/version "2.3.0"}
+        org.clojure/core.async {:mvn/version "1.6.673"}
+        com.cognitect/transit-clj {:mvn/version "1.0.324"}
+        clojure.java-time/clojure.java-time {:mvn/version "1.2.0"}
+        cheshire/cheshire {:mvn/version "5.11.0"}}}
